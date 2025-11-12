@@ -42,7 +42,7 @@ print(a <= b)   # Checks for less than or equal; to # True
 # Create a simple grade-checking condition:
 
 # practice problem :
-# where a student must check if their score is greater than or equal to 60 to pass a test.# The password must be at least 8 characters long and contain at least one digit.password = "mypassword1"
+# where a student must check if their score is greater than or equal to 60 to pass a test.
 
 # asking student score
 score= int(input("what is your score?"))
@@ -58,8 +58,6 @@ score= int(input("what is your score?"))
 #   else:
  #  print("you didn't pass")
 
-# ask for password
-  # password=input("what is your password")
 
 # & is and operator
 # | is
@@ -78,3 +76,14 @@ elif score >=60 and score <=69:
 else:
      print('you failed, come for ACLAB') 
 
+# ask for password
+  # password=input("what is your password")
+  # The password must be at least 8 characters long
+  #  and contain at least one digit.password = "mypassword1"
+password =input("what is your passwork?")
+if len(password) >= 8 and any (char.isdigit() for char in password):
+     print("Password is valid")
+else:
+     print("Password is invalid." /
+           "it must be at least 8 characters long and contain at least one digit.")
+     
