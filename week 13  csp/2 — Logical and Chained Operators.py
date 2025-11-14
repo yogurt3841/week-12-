@@ -23,7 +23,7 @@ print(1 < x < 20)         # True
 
 # Write an expression that checks if a number is between 50 and 100 (inclusive).
 number= int(input("what is your number range?"))
-if number >= 50 and number <=100
+if number >= 50 and number <=100:
     print(" the number is between 50 and 100")
 else:
  print("the number is valid")
